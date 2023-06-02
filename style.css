@@ -1,0 +1,758 @@
+@font-face {
+    font-family: Trailer;
+    src: url(fuentes/Trailer\ Park\ Girl.otf);
+}
+
+@font-face {
+        font-family: Retrolight;
+        src: url(fuentes/Retrolight.otf);
+    }
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+/*font-family: 'Rubik', sans-serif;*/
+
+
+header {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+header img {
+    max-width: 100%;
+    vertical-align: top;
+    width: 230px;
+}
+.buscador {
+    text-align: center;
+    background-color: white;
+    margin: 0 auto;
+}
+.d-flex {
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.btn {
+    padding: 0%;
+    text-align: center;
+}
+header input {
+    align-content: center;
+    height: 30px;
+}
+header button {
+    width: 50px;
+    height: 30px;
+}
+.me-2{
+    margin: 0% !important;
+}
+.form-control {
+    width: 300px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 40px 0 0 40px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    width: 70px;
+    border-radius: 0 40px 40px 0;
+}
+#menu a {
+    display: inline;
+    height: 100px;
+    line-height: 100px;
+    font-family: Retrolight;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.466);
+}
+header a {
+    text-align: center;
+    text-decoration: rgba(0, 0, 0, 0.856);
+    color: rgba(19, 19, 19, 0.678);
+    padding: 8px;
+}
+    .menu1:hover {
+        color: white
+    }
+        .menu2:hover {
+            color: white
+        }
+            .menu3:hover {
+                color: white
+            }
+                .menu4:hover {
+                    color: white
+                }
+                    .menu5:hover {
+                        color: white
+                    }
+
+
+.contenido {
+    display: grid;
+    grid-template-columns: auto 200px;
+    grid-template-areas: "main";
+    grid-template-rows: 100%;
+    padding: 0%;
+}
+main {
+    background-color: #f0efe7;
+    align-items: center;
+}
+h1 {
+        padding-top: 30px;
+        text-align: center;
+        font-size: 30px;
+    }
+h2 {
+            text-align: center;
+            font-size: 30px;
+        }
+.titulo {
+    text-align: left;
+}
+
+
+#carrusel {
+    display: block !important;
+}
+#carrusel {
+    width: 900px !important;
+    overflow: hidden;
+    height: 330px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    background-image: linear-gradient(#1D1D1D,#151515);
+    border-radius: 10px;
+    clear: both!important;
+    display: block!important;
+}
+#estrenopeli {
+    text-align: left;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px ;
+    font-size: 18px;
+    font-weight: 700;
+}
+#nuevosjuegos {
+    text-align: left;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px ;
+    font-size: 18px;
+    font-weight: 700;
+}
+.left-arrow img {
+    position:absolute;
+    height: 70px;
+    left:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+.right-arrow img {
+    position:absolute;
+    height: 70px;
+    right:10px;
+    z-index:1;
+    top:50%;
+    margin-top:-9px;
+}
+.carrusel {
+    width:4000px;
+    left:0px;
+    position:absolute;
+    z-index:0;
+}
+.carrusel>div {
+    float: left;
+    height: 203px;
+    margin-right: 5px;
+    width: 195px;
+    text-align:center;
+}
+.carrusel img {
+    cursor: pointer;
+    width: 195px;
+    height: 260px;
+}
+.product {
+    border:#CCCCCC 1px solid;
+}
+
+#creamusic p{
+    text-align: left;
+    color: black;
+    padding-top: 30px;
+    padding-left: 90px ;
+    font-size: 18px;
+    font-weight: 700;
+}
+#editor1 {
+    font-family: trebuchet ms;
+    margin-left: 90px;
+    text-decoration: none;
+    font-size: 23px;
+    padding-bottom: 30px;
+}
+#editor2 {
+    font-family: trebuchet ms;
+    margin-left: 90px;
+    text-decoration: none;
+    font-size: 23px;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+
+aside {
+    justify-content: center;
+    justify-items: center;
+    background-color: silver;
+    width: 200px;
+}
+#textside {
+    animation-duration: 8s;
+    animation-name: up;
+}
+@keyframes up {
+    from {
+        margin-top: 100%;
+        width: 100%;
+    }
+    to {
+        margin-top: 0%;
+        width: 100%;
+    }
+}
+
+
+#musica {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.music {
+    padding: 8px;
+    height: 300px !important;
+    width: 380px !important;
+    justify-content: center;
+}
+
+
+#pantalla {
+    display: block;
+    width: 100%;
+    height: 340px;
+}
+.symbol{
+    display: block !important;
+    padding-left: 80px;
+}
+img.movies {
+    padding: 5px;
+    width: auto;
+    height: 300px;
+    justify-content: center;
+}
+img.movies:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+#videojuegos {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#videojuegos {
+    background-image: linear-gradient(#14ffe9, #ffeb3b, rgb(212, 0, 212), rgb(253, 62, 62));
+    animation: rotate 30s linear infinite;
+}
+@keyframes rotate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+#videojuegos :hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.juegos {
+    padding: 8px;
+    height: 280px;
+    width: 230px !important;
+    background-color: black;
+    border-radius: 15px;
+}
+
+
+#usuario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 10px;
+    padding: 10px;
+    justify-items: center;
+    align-items: start;
+}
+.registro {
+    color: #fff;
+    inset: 4px;
+    width: 380px;
+    height: 420px;
+    padding: 20px 20px;
+    background: #1c1c1c;
+    z-index: 2;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.usuario {
+    color: #fff;
+    inset: 4px;
+    width: 380px;
+    height: 420px;
+    padding: 20px 20px;
+    background: #1c1c1c;
+    z-index: 2;
+    border-radius: 8px;
+    overflow: hidden;
+}
+#coment {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    background-color: #f0efe7;
+    animation-duration: 5s;
+    animation-name: slide;
+}
+@keyframes slide {
+    from {
+        margin-right: 50%;
+        margin-left: 50%;
+        width: 200%;
+    }
+    to {
+        margin: 0%;
+        width: 100%;
+    }
+}
+
+
+footer {
+    width: 100%;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+    background-image: url(../archivosmultimedia/estrellas\ gif.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    padding-top: 10px;
+}
+
+@media only screen and (min-width: 912px) and (max-width: 1370px) {
+    #carrusel {
+        width: 700px !important;
+    }
+    aside {
+        background-color: silver;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+    #carrusel {
+        width: 600px;
+    }
+}
+@media only screen and (min-width: 412px) and (max-width: 915px) {
+    #carrusel {
+        width: 300px;
+    }
+}
+@media only screen and (min-width: 360px) and (max-width: 740px) {
+    #textside {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        animation: none;
+        align-items: center;
+        flex-direction: column;
+        width: 400px !important
+}
+}
+@media only screen and (min-width: 280px) and (max-width: 655px) {
+    #carrusel {
+        width: 200px !important;
+        justify-items: center !important;
+        margin-left: 0;
+    }
+    #editor1 {
+        display: block;
+    }
+    #editor2 {
+        display: block;
+    }
+    #textside {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        animation: none;
+        align-items: center;
+        flex-direction: column;
+    }
+    aside {
+        background-color: silver;
+        width: 80%;
+        display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+    .contenido {
+        display: flex;
+        flex-direction: column;
+    }
+    }
+
+@media only screen and (min-width: 520px) and (max-width: 720px) {
+    #carrusel {
+        justify-items: center !important;
+    }
+    }
+
+@media only screen and (min-width: 412px) and (max-width: 918px) {
+    #carrusel {
+        width: 300px !important;
+    }
+    #editor1 {
+        display: block;
+    }
+    #editor2 {
+        display: block;
+    }
+    aside {
+        display: contents;
+    }
+}
+
+@media only screen and (min-width: 300px) and (max-width: 700px) {
+    .contenido {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-widht: 500px) {
+    #menu a {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    
+    @media only screen and (min-width: 500px) {
+    .logo {
+            width: 100%;
+            align-items: center;
+    }
+    
+    #musica {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    #peliculas {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    #videojuegos {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    .juegos {
+            width: 300px;
+    }
+    
+    #usuario {
+            align-items: center;
+            justify-content: center;
+    }
+    }
+    
+    @media only screen and (max-width: 500px) {
+    .logo  {
+            width: 100%;
+            align-items: center;
+    }
+    
+    #musica {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    #peliculas {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    #videojuegos {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    .juegos {
+            width: 300px;
+    }
+    
+    #usuario {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    }
+    
+    @media screen and (min-width: 600px) {
+    .grid-container {
+            grid-template-areas:
+            "sidebar"
+    }
+    }
+    
+    @media screen and (max-width: 500px) {
+    #menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+    
+    header {
+            flex-direction: column;
+            align-items: center;
+    }
+    }
+
+    @media screen and (min-width: 280px) and (max-width: 652px) {  
+        #menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+    .logo  {
+        width: 100%;
+        align-items: center;
+    }
+    #buscador {
+        width: 200px;
+    }
+    .usuario {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 200px;
+    }
+    .registro {
+        display: flex;
+        flex-direction: column;
+    justify-content: center;
+    width: 340px;
+    }
+        .usuario {
+            display: flex;
+        flex-direction: column;
+    justify-content: center;
+    width: 340px;
+        }
+
+}
+@media screen and (min-width: 600px) and (max-width: 1100px) {
+    #textside {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        animation: none;
+        align-items: center;
+    }
+    aside {
+        background-color: silver;
+        width: 80%;
+        display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    }
+    .contenido {
+        display: flex;
+        flex-direction: column;
+    }
+    }
+    @media screen and (min-width: 540px) and (max-width: 720px) {
+        #menu {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+    }
+    .logo  {
+        width: 100%;
+        align-items: center;
+}
+    header {
+            flex-direction: column;
+            align-items: center;
+        }
+        #usuario {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+}
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 2000px) {
+    #videojuegos {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .juegos {
+        width: 300px;
+    }
+    }
+    
+    @media screen and (min-width: 600px) and (max-width: 1200px) {
+    #menu {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    #menu a {
+            font-size: 30px;
+    }
+    
+    #musica {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    #peliculas {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    #usuario {
+            align-items: center;
+            justify-content: center;
+    }
+    }
+    
+    @media screen and (min-width: 800px) and (max-width: 900px) {
+    header {
+            display: flex;
+            align-items: center;
+    }
+    
+    .form-control {
+            width: 250px;
+    }
+    
+    #musica {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    #peliculas {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    
+    #videojuegos {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .juegos {
+            width: 300px;
+    }
+    
+    #usuario {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: center;
+    }
+    }
+
+
+
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <meta name="description" content="crea tu propio mundo en PLAY">
+    <meta name="keywords" content="registrate, ingresa">
+    <title>PLAY.Usuario</title>
+    <link rel="shortcut icon" href="../archivosmultimedia/Mano_cursor.svg.png" type="image/X-icon">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+    <nav id="menu">
+        <a href="../index.html" target="_self" class="menu1">INICIO</a>
+        <a href="../codigohtml/musica.html" target="_self" class="menu2">MÚSICA</a>
+        <a href="../codigohtml/peliculas.html" target="_self" class="menu3">PELICULAS</a>
+        <a href="../codigohtml/videojuegos.html" target="_self" class="menu4">VIDEOJUEGOS</a>
+        <a href="usuario.html" target="_self" class="menu5">USUARIO</a>
+        <div id="buscador">
+            <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Search">
+            <button class="btn btn-primary" type="button">Buscar</button>
+            </form>
+        </div>
+    </nav>
+        <img src="../archivosmultimedia/mundo conectado.webp" href="usuario.html" alt="">
+</header>
+
+<main id="usuario">
+
+    <fieldset>
+        <form class="registro" action="/action_page.php">
+            <span class="borderline"></span>
+            <p><strong>Registrate</strong></p>
+            <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Correo Electrónico:</label>
+            <input type="email" class="form-control" id="email" placeholder="ingresa tu correo electrónico" name="email">
+            </div>
+            <div class="mb-3 mt-3">
+            <label for="nombre" class="form-label">Nombre de usuario:</label>
+            <input type="nombre" class="form-control" id="nombre" placeholder="ingresa tu nombre" name="text">
+            <div class="mb-3">
+            <label for="pwd" class="form-label">Contraseña:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="ingresa tu contraseña" name="pswd">
+            </div>
+            <div class="form-group">
+            <label for="exampleFormControlFile1"></label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1" placeholder="foto de usuario" name="file">
+            </div>
+            <input id="enviar" type="submit" value="enviar">
+        </form>
+        </fieldset>
+
+        <fieldset>
+        <form class="usuario" action="/action_page.php">
+            <p><strong>Inicia Sesión</strong></p>
+            <div class="mb-3 mt-3">
+            <label for="email" class="form-label">Correo Electrónico:</label>
+            <input type="email" class="form-control" id="email" placeholder="ingresa un correo electrónico" name="email">
+            </div>
+            <div class="mb-3 mt-3">
+            <label for="nombre" class="form-label">Nombre de usuario:</label>
+            <input type="nombre" class="form-control" id="nombre" placeholder="ingresa tu nombre" name="text">
+            <div class="mb-3">
+            <label for="pwd" class="form-label">Contraseña:</label>
+            <input type="password" class="form-control" id="pwd" placeholder="ingresa tu contraseña" name="pswd">
+            </div>
+            <div class="form-group">
+            <label for="exampleFormControlFile1"></label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1" placeholder="foto de usuario" name="file">
+            </div>
+            <div class="form-check mb-3">
+            <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember">Recordar</label>
+            </div>
+            <input type="submit" value="enviar">
+        </form>
+        </fieldset>
+</main>
+        <form id="coment">
+            <p class="comentario"><strong>Dudas. Quejas. Opinión</strong></p>
+            <label class="comentario" for=""></label>
+            <textarea name="comentario" id="" placeholder="escribe tu comentario"></textarea>
+            <input type="submit" value="enviar">
+        </form>
+
+<footer>
+    <p>Todos los derechos y reconocimientos de las obras corresponden a sus creadores</p>
+</footer>
+</body>
+</html>
